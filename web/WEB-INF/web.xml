@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>form</servlet-name>
+        <servlet-class>com.jqe.servlet.FormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>form</servlet-name>
+        <url-pattern>/formservlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>herf</servlet-name>
+        <servlet-class>com.jqe.servlet.herfservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>herf</servlet-name>
+        <url-pattern>/myherf</url-pattern>
+    </servlet-mapping>
+</web-app>
