@@ -11,6 +11,6 @@
   <title>Welcome</title>
 </head>
 <body>
-Welcome to Huang Junbo's code
+Welcome to Huang Junbo's code :)
 </body>
 </html>
