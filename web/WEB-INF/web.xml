@@ -16,4 +16,20 @@
         <servlet-name>herf</servlet-name>
         <url-pattern>/myherf</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>servletdemo</servlet-name>
+        <servlet-class>com.jqe.servlet.GetPostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletdemo</servlet-name>
+        <url-pattern>/myservlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>dles_sc</servlet-name>
+        <servlet-class>com.jqe.servlet.dles_sc_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dles_sc</servlet-name>
+        <url-pattern>/dles_sc</url-pattern>
+    </servlet-mapping>
 </web-app>
