@@ -73,4 +73,12 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/LogoutServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>servletmo</servlet-name>
+        <servlet-class>com.jqe.servlet.ServletDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletmo</servlet-name>
+        <url-pattern>/twomethod</url-pattern>
+    </servlet-mapping>
 </web-app>
