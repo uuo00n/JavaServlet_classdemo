@@ -40,7 +40,7 @@
                 <div align="left">
                     <span style="font-weight: 400"><font size="2">确认密码</font></span></div>
             </th>
-            <td><input name="确认密码" type="password" id="PWD">
+            <td><input name="确认密码" type="password">
                 <span class="style2">*</span></td>
         </tr>
 
