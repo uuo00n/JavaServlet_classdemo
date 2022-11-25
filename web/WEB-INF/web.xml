@@ -81,4 +81,12 @@
         <servlet-name>servletmo</servlet-name>
         <url-pattern>/twomethod</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>servletbean</servlet-name>
+        <servlet-class>com.jqe.servlet.ServletDemo_bean</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletbean</servlet-name>
+        <url-pattern>/servletbean</url-pattern>
+    </servlet-mapping>
 </web-app>
