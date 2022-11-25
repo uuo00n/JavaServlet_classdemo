@@ -89,4 +89,12 @@
         <servlet-name>servletbean</servlet-name>
         <url-pattern>/servletbean</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ShiXun</servlet-name>
+        <servlet-class>com.jqe.servlet.ShixunServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShiXun</servlet-name>
+        <url-pattern>/shixun</url-pattern>
+    </servlet-mapping>
 </web-app>
